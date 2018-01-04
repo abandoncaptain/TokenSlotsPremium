@@ -1,0 +1,23 @@
+name: TokenSlots
+version: 4.2
+main: me.abandoncaptian.TokenSlots.Main
+description: TokenSlots made by abandoncaptian
+depend: [Vault]
+commands:
+  slots:
+    description: Base command for the slot machine
+  tokenslots:
+    description: Staff command for plugin
+permissions:
+  tokenslots.*:
+    description: Gives access to tokenslots permissions
+    children:
+      tokenslots.reload: true
+      tokenslots.signcreate: true
+      tokenslots.settings: true
+  tokenslots.reload:
+    description: Gives access to /tokenslots reload
+  tokenslots.signcreate:
+    description: Gives access to creating the [Slots] sign
+  tokenslots.settings:
+    description: Gives access to edit settings in-game
