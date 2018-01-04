@@ -1,7 +1,6 @@
 package me.abandoncaptian.TokenSlots;
 
 import java.util.ArrayList;
-
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
